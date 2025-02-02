@@ -1,0 +1,17 @@
+services:
+  ecowitt:
+    image: ecowitt2mqtt:latest
+    build:
+      context: .
+    container_name: ecowitt2mqtt
+    restart: unless-stopped
+    ports:
+      - 55904:55904
+    environment:
+      - MQTT_HOST=localhost
+      - MQTT_PORT=1883
+      - MQTT_USERNAME=username
+      - MQTT_PASSWORD=password
+      - MQTT_PREFIX=ws90
+      - ENDPOINT_PATH=/ # Default: true
+      - HTTP_PORT=55904 # Right side of the exposed port above has to be the same as this

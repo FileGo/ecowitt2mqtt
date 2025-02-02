@@ -1,0 +1,96 @@
+mqtt:
+  sensor:
+    - name: "WX Station Temperature"
+      state_topic: "ws90/tempOutC"
+      unit_of_measurement: "°C"
+      icon: mdi:thermometer
+      device_class: temperature
+
+    - name: "WX Station Humidity"
+      state_topic: "ws90/humidityOut"
+      unit_of_measurement: "%"
+      icon: mdi:water-percent
+      device_class: humidity
+
+    - name: "WX Station Pressure"
+      state_topic: "ws90/baromAbsHpa"
+      unit_of_measurement: "hpa"
+      icon: mdi:gauge
+      device_class: atmospheric_pressure
+
+    - name: "WX Station Wind Speed"
+      state_topic: "ws90/windSpdMps"
+      unit_of_measurement: "m/s"
+      icon: mdi:weather-dust
+      device_class: wind_speed
+
+    - name: "WX Station Wind Direction"
+      state_topic: "ws90/windDir"
+      unit_of_measurement: "°"
+      icon: mdi:compass
+
+    - name: "WX Station Wind Gust"
+      state_topic: "ws90/windGustMps"
+      unit_of_measurement: "m/s"
+      icon: mdi:weather-dust
+      device_class: wind_speed
+
+    - name: "WX Station Max Daily Gust"
+      state_topic: "ws90/maxDailyGustMps"
+      unit_of_measurement: "m/s"
+      icon: mdi:weather-dust
+      device_class: wind_speed
+
+    - name: "WX Station Solar Radiation"
+      state_topic: "ws90/solarRadiation"
+      unit_of_measurement: "W/mm2"
+      icon: mdi:water
+      device_class: irradiance
+
+    - name: "WX Station Rain Real Time"
+      state_topic: "ws90/rainRealTime"
+      unit_of_measurement: "mm/h"
+      icon: mdi:water
+      device_class: precipitation_intensity
+
+    - name: "WX Station Rain Event"
+      state_topic: "ws90/rainEvent"
+      unit_of_measurement: "mm"
+      icon: mdi:water
+      device_class: precipitation
+
+    - name: "WX Station Rain Hourly"
+      state_topic: "ws90/rainHourly"
+      unit_of_measurement: "mm"
+      icon: mdi:water
+      device_class: precipitation
+    
+    - name: "WX Station Rain Daily"
+      state_topic: "ws90/rainDaily"
+      unit_of_measurement: "mm"
+      icon: mdi:water
+      device_class: precipitation
+    
+    - name: "WX Station Rain Weekly"
+      state_topic: "ws90/rainWeekly"
+      unit_of_measurement: "mm"
+      icon: mdi:water
+      device_class: precipitation
+
+    - name: "WX Station Rain Monthly"
+      state_topic: "ws90/rainDaily"
+      unit_of_measurement: "mm"
+      icon: mdi:water
+      device_class: precipitation
+
+    - name: "WX Station Rain Yearly"
+      state_topic: "ws90/rainYearly"
+      unit_of_measurement: "mm"
+      icon: mdi:water
+      device_class: precipitation
+
+    - name: "WX Station Rain Season"
+      state_topic: "ws90/rainSeason"
+      unit_of_measurement: "mm"
+      icon: mdi:water
+      device_class: precipitation
