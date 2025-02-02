@@ -22,6 +22,6 @@ jobs:
         
       - name: Build Inventory Image
         run: |
-          docker build . --tag ghcr.io/FileGo/ecowitt2mqtt:latest
-          docker push ghcr.io/FileGo/ecowitt2mqtt:latest
+          docker build . --tag ghcr.io/filego/ecowitt2mqtt:latest
+          docker push ghcr.io/filego/ecowitt2mqtt:latest
 
