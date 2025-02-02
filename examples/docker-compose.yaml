@@ -1,8 +1,6 @@
 services:
   ecowitt:
-    image: ecowitt2mqtt:latest
-    build:
-      context: .
+    image: ghcr.io/filego/ecowitt2mqtt:latest
     container_name: ecowitt2mqtt
     restart: unless-stopped
     ports:
