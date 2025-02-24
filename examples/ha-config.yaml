@@ -43,7 +43,7 @@ mqtt:
 
     - name: "WX Station Solar Radiation"
       state_topic: "ws90/solarRadiation"
-      unit_of_measurement: "W/mm2"
+      unit_of_measurement: "W/m2"
       icon: mdi:water
       device_class: irradiance
 

@@ -1,6 +1,6 @@
 # Ecowitt to MQTT Bridge
 
-![Build](https://github.com/FileGo/ecowitt2mqtt/actions/workflows/build.yaml/badge.svg) ![Publish Docker Image](https://github.com/FileGo/ecowitt2mqtt/actions/workflows/docker.yaml/badge.svg) ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/FileGo/ecowitt2mqtt) ![Go Report Card](https://goreportcard.com/badge/github.com/FileGo/ecowitt2mqtt)
+![Build](https://github.com/FileGo/ecowitt2mqtt/actions/workflows/build.yaml/badge.svg) ![Publish Docker Image](https://github.com/FileGo/ecowitt2mqtt/actions/workflows/docker.yaml/badge.svg) ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/FileGo/ecowitt2mqtt) [![Go Report Card](https://goreportcard.com/badge/github.com/FileGo/ecowitt2mqtt)](https://goreportcard.com/report/github.com/FileGo/ecowitt2mqtt)
 
 Primarily designed to feed Ecowitt WS90 weather station data to an MQTT server, from which it can be used in any other source, e.g. Home Assistant through [MQTT Integration](https://www.home-assistant.io/integrations/mqtt/).
 
