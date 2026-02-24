@@ -3,7 +3,7 @@ module github.com/FileGo/ecowitt2mqtt
 go 1.26
 
 require (
-	github.com/caarlos0/env/v11 v11.3.1
+	github.com/caarlos0/env/v11 v11.4.0
 	github.com/eclipse/paho.mqtt.golang v1.5.1
 	github.com/gin-gonic/gin v1.11.0
 	github.com/stretchr/testify v1.11.1
